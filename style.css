@@ -26,6 +26,11 @@ body{
     color: #1F3F68;
 }
 
+.cards_title{
+    font-size: 36px;
+    text-align: center;
+}
+
 .text_inputs{
     margin-bottom: 5px;
     border: 1px solid #356EAD;
