@@ -1,5 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header>a {
+    display: block;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.interest_to{
+    width: 459px;
+}
+.contacts{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+.cards__items {
+    display: flex;
+    justify-content: space-around;
+}
+.card-item{
+    width: 359px;
+    height: 150px;
+}
 body{
     font-family: sans-serif;
+}
+.p_about_us{
+    display: inline;
+}
+.contact-us-flex{
+    display: flex;
+    justify-content: space-around;
+}
+.main_info_p{
+    display: block;
+    width: 425px;
 }
 .p_body{
     font-size: 16px;
@@ -7,6 +50,7 @@ body{
     color: #1F3F68;
 }
 .h1_body{
+    width: 510px;
     font-size: 64px;
     color: #1F3F68;
 }

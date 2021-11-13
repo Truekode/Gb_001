@@ -6,63 +6,67 @@
     <link href="style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-    <header>
-        <a href="index.html">Главная</a>
-        <a href="contacts.html">Контакты</a>
-    </header>
-    <div class="main_content">
-        <div class="about_us-title">
-            <h2 class="h2_body">О нас</h2>
-            <p class="p_body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam, voluptas.</p>
-            <img src="./img/svg-2.svg" alt="" width="100">
+    <div class="container">
+        <header>
+            <a href="index.html">Главная</a>
+            <a href="contacts.html">Контакты</a>
+        </header>
+        <div class="main_content">
+            <div class="about_us-title">
+                <h2 class="h2_body">О нас</h2>
+                <img src="./img/svg-2.svg" alt="" width="50"><p class="p_body p_about_us">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam, voluptas.</p>
+            </div>
+            <div class="contact-us-flex">
+                <div class="about_as-info">
+                    <h4 class="h4_body">Address</h4>
+                    <p class="p_body">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                    <h4 class="h4_body">Phone</h4>
+                    <ul>
+                        <li>+78003002020</li>
+                        <li>+79003002020</li>
+                    </ul>
+                    <div class="social_network">
+                        <h4 class="h4_body">Online service</h4>
+                        <ul>
+                            <li><a href="https://vk.com/feed">Наша группа в вк</a></li>
+                            <li><a href="mailto:vlad@webref.ru">Написать на почту</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="form-call">
+                    <h4 class="h4_body">Send us message</h4>
+                    <form action="#">
+                        <label>Full name <input class="text_inputs" type="text"> </label><br>
+                        <label>Email &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input class="text_inputs" type="text"> </label><br>
+                        Message <br> <textarea class="text_inputs" name="" id="" cols="30" rows="5"></textarea><br>
+                        <button type="submit">submit</button>
+                    </form>
+                </div>
+            </div>
         </div>
-        <div class="about_as-info">
-            <h4 class="h4_body">Address</h4>
-            <p class="p_body">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
-            <h4 class="h4_body">Phone</h4>
-            <ul>
-                <li>+78003002020</li>
-                <li>+79003002020</li>
-            </ul>
-            <div class="social_network">
-                <h4 class="h4_body">Online service</h4>
-                <ul>
-                    <li><a href="https://vk.com/feed">Наша группа в вк</a></li>
-                    <li><a href="mailto:vlad@webref.ru">Написать на почту</a></li>
+        <div class="map-integration">
+            <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Aaf3ca8605fe99e8e3ac0cce2551c04e38dfaa9a8260ee7653c925a65f1160e2f&amp;source=constructor" width="100%" height="400" frameborder="0"></iframe>
+        </div>
+        <footer>
+            <div class="footer_headind">
+                <div class="heading-item">
+                    <h3 class="cards_title">Lorem ipsum dolor.</h3>
+                    <p class="p_body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, praesentium?</p>
+                </div>
+            </div>
+            <hr>
+            <div class="contacts-block">
+                <h4>Наши контакты</h4>
+                <ul class="contacts">
+                    <li>Эрик</li>
+                    <li>+79961241457</li>
+                    <li>mail@mail.ru</li>
                 </ul>
+                <div class="rights">
+                    <p class="p_body">Все права защищены</p>
+                </div>
             </div>
-        </div>
-        <div class="form-call">
-            <h4 class="h4_body">Send us message</h4>
-            <form action="#">
-                <label>Full name <input class="text_inputs" type="text"> </label><br>
-                <label>Email &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input class="text_inputs" type="text"> </label><br>
-                Message <br> <textarea class="text_inputs" name="" id="" cols="30" rows="5"></textarea><br>
-                <button type="submit">submit</button>
-            </form>
-        </div>
+        </footer>
     </div>
-    <div class="map-integration">
-        <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Aaf3ca8605fe99e8e3ac0cce2551c04e38dfaa9a8260ee7653c925a65f1160e2f&amp;source=constructor" width="500" height="400" frameborder="0"></iframe>
-    </div>
-    <footer>
-        <div class="footer_headind">
-            <div class="heading-item">
-                <h3 class="cards_title">Lorem ipsum dolor.</h3>
-                <p class="p_body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, praesentium?</p>
-            </div>
-        </div>
-        <hr>
-        <div class="contacts">
-            <ul>Наши контакты
-                <li>Эрик</li>
-                <li>+79961241457</li>
-                <li>mail@mail.ru</li>
-            </ul>
-            <div class="rights">
-                <p class="p_body">Все права защищены</p>
-            </div>
-        </div>
-    </footer>
 </body>
 </html>
