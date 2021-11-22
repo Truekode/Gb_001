@@ -6,7 +6,7 @@
 }
 .top {
     background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
-    height: 768px;
+    min-height: 768px;
 }
 .top__container{
     display: flex;
@@ -64,6 +64,7 @@
     background-image: url(img/illustration.svg);
     padding-top: 115px;
     background-position: right center;
+    background-size: 44%;
 }
 .what-we-do{
     padding-top: 64px;
@@ -243,4 +244,164 @@
     letter-spacing: 0.05em;
     color: #FFFFFF;
     opacity: 0.4;
+}
+
+@media (max-width: 1024px) {
+    .container {
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+
+    .top__info {
+        background-position: right 280px;
+    }
+
+    .cards-box {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card{
+        margin-bottom: 32px;
+    }
+    .footer__info{
+        padding: 47px 124px;
+    }
+    .footer__info__end{
+        padding: 47px 124px;
+    }
+    .footer__card__title{
+        width: 336px;
+    }
+
+    .footer__card__text {
+        width: 336px;
+    }
+
+    .footer__card__button {
+        margin-top: 55px;
+        padding: 2px 32px;
+    }
+
+    .footer__contacts {
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .footer__contacts>li {
+        max-width: 750px;
+        margin-bottom: 25px;
+        padding-left: 45px;
+    }
+}
+
+@media (max-width: 667px) {
+    .top {
+        min-height: 376px;
+        padding-bottom: 41px;
+        box-sizing: border-box;
+    }
+
+    .header {
+        padding-top: 24px;
+    }
+
+    .top__info{
+        padding-top: 36px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-image: none;
+    }
+
+    .top__heading{
+        width: 100%;
+        font-size: 32px;
+        line-height: 37px;
+        margin-bottom: 12px;
+        text-align: center;
+    }
+    .top__text{
+        padding-top: 0px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .top__button {
+        font-size: 12px;
+        line-height: 26px;
+        padding: 0 8px;
+    }
+
+    .heading {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .what-we-do {
+        padding-top: 48px;
+    }
+
+    .cards-box {
+        padding-top: 32px;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .text__project {
+        width: 100%;
+    }
+
+    .project__text {
+        font-size: 16px;
+        line-height: 19px;
+        top: 16px;
+        right: 16px;
+    }
+    .project__text_left{
+        font-size: 16px;
+        line-height: 19px;
+        left: 16px;
+    }
+    .project__parent {
+        margin-top: 16px;
+        flex-direction: column;
+    }
+    .project__item_margin{
+        margin-bottom: 16px;
+        margin-right: 0px;
+    }
+
+    .footer__infos {
+        flex-direction: column;
+    }
+
+    .footer__card__title {
+        text-align: center;
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .footer__card__text {
+        width: 100%;
+        text-align: center;
+    }
+    .footer__card__button {
+        margin-top: 40px;
+        padding: 2px 23px;
+    }
+    .footer__info__end {
+        padding: 0px 28px;
+    }
+    .footer__contacts {
+        padding: 32px 0px 10px 10px;
+    }
+    .footer__contacts>li {
+        padding-left: 22px;
+    }
+    .rights {
+        text-align: center;
+        padding-bottom: 32px;
+    }
 }
